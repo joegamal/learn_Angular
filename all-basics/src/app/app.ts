@@ -1,4 +1,4 @@
-import { Component, numberAttribute, signal } from '@angular/core';
+import { Component, computed, input, numberAttribute, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -25,5 +25,5 @@ export class App {
     this.value2++;
     this.value3++;
   }
-  
+
 }
