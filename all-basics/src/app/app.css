@@ -1,34 +1,7 @@
-
-/* body {
-  display: block;
-  margin: 0;
-  padding: 0;
-   width: max-content; 
-  min-height: 100vh;
-  background-color: gray;
-
-} */
-
-body  {
-  /* margin: 0;
-  padding: 0; */
-  /* min-height: 100vh; */
-  height: 100em;
-  
-  background-color: blue ;
-}
-
-nav {
+main {
   display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 5em;
-  background-color: blueviolet;
-  align-items: center;
-}
-
-button {
-  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
   justify-content: center;
   align-items: center;
 }

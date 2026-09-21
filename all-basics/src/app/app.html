@@ -1,24 +1,7 @@
 <main>
-  <nav>hello</nav>
 
-  <h2>{{ value1 }}</h2>
+  <h1 style="display: inline;" >in app component value <button (click)="increment()">{{ parentValue() }}</button></h1>
 
-  <h2>{{ value2 }}</h2>
-
-  <h2>{{ value3 }}</h2>
-
-  <button (click)="increment()">
-    increment one
-  </button>
-
-  <button (click)="increment2()">
-    increment two
-  </button>
-
-   <button (click)="increment3()">
-    increment three
-  </button>
-
-  <input type="text" name="inn" id="inn">
+  <app-holder [value]="parentValue"></app-holder>
 
 </main>
