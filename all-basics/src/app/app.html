@@ -1,7 +1,11 @@
 <main>
+  <div class="title">
 
-  <h1 style="display: inline;" >in app component value <button (click)="increment()">{{ parentValue() }}</button></h1>
+  
+  <h1 style="display: block;" >in app component value <button (click)="increment()">{{ parentValue() }}</button></h1>
 
+
+  </div>
   <app-holder [value]="parentValue"></app-holder>
 
 </main>

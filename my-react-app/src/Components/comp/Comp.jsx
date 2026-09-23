@@ -5,7 +5,7 @@ function Comp() {
 
   return (
     <>  
-      <div>hello from comp</div>
+      <div>hello from component</div>
     </>
   )
 }
