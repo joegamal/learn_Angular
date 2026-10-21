@@ -1,15 +1,13 @@
 import { use, useEffect, useState } from 'react'
 
-import './App.css'
-import Comp from './Components/comp/Comp'
+import './styles/App.css'
 
 export default function App() {
 
-
   return (
     <>  
-     <div>hello</div>
-     <Comp></Comp>
+      <div>hello</div>
+      
     </>
   )
 }
