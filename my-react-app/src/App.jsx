@@ -1,6 +1,9 @@
 import { use, useEffect, useState } from 'react'
 
 import './styles/App.css'
+import MyButton from "./Components/MyButton.jsx";
+import MyButton2 from "./Components/MyButton2.jsx";
+import RedComponent from "./Components/ReducerPracticeComponent.jsx";
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -25,21 +28,9 @@ export default function App() {
 
       <MyButton2 obj={obj}/>
 
+      <RedComponent />
+
 
     </>
   )
 }
-
-function MyButton({count, action}) {
-  return(
-    <button onClick={action}>{count}</button>
-  )
-}
-
-function MyButton2({obj}) {
-  return(
-    <button onClick={obj.action}>{obj.count}</button>
-  )
-}
-
-// export default App
